@@ -1,4 +1,3 @@
-
 /***** BASE STYLES ****/
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -22,13 +21,13 @@ h2, h3 {
 }
 
 .half-width {
-	width: 600px;	
+	width: 50%;	
 	float: left;
 	background-color: white;
 }
 
 .half-width-nav {
-	width: 600px;
+	width: 50%;
 	text-align: center;
 	float: left;
 }
@@ -364,4 +363,148 @@ h1 {
 
 .footer p {
 	padding-top: 30px;
+}
+
+
+@media screen and (max-width: 980px) {
+
+/** ABOUT **/
+	h2 {
+		color: black;
+	}
+	.about-image {
+		float: none;
+		margin-bottom: 10px;
+		margin-left: 20px;
+	}	
+
+	.about-content {
+		width: 40%;
+		height: 65%;
+		padding-right: 10px;
+}
+
+	.about-paragraph {
+		width: 90%;
+		padding-bottom: 10px;
+		padding-left: 20px;
+
+	}
+
+/** PORTFOLIO **/
+
+	.portfolio {
+		width: 40%;
+		height: 65%;
+		padding-right: 10px;
+	}	
+
+	.wrapper2 {
+		top: 742px;
+	}
+
+	.wrapper3 {
+		top: 1142px;
+	}
+
+	.wrapper4 {
+		left: 100px;
+		top: 542px;
+	}
+
+	.wrapper5 {
+		left: 100px;
+		top: 942px;
+	}
+
+	.wrapper6 {
+		left: 100px;
+		top: 1342px;
+	}
+}
+@media screen and (max-width: 768px) {
+
+/** ABOUT **/	 
+	h2 {
+		color: green;
+	}
+
+	.about-image {
+		float: left;
+		margin-bottom: 10px;
+		margin-left: 20px;
+		
+	}	
+
+	.about-content {
+		width: 90%;
+		height: 65%;
+		padding-right: 10px;
+}
+
+	.about-paragraph {
+		
+		padding: 20px;
+		margin-right: 20px;
+		
+	}
+
+/** ASIDE **/
+	.aside-content {
+		width: 100%;
+		text-align: left;
+	}
+
+	.aside-content hr {
+		width: 100%;
+	}
+
+/** PORTFOLIO **/
+
+.portfolio {
+		width: 100%;
+		padding-right: 10px;
+		margin: 20px;
+	}	
+
+.portfolio-images li img {
+	width: 50%;
+	height: 50%;
+	
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+/** HEADER **/
+	.logo-name {
+		width: 100%;
+		margin: auto;
+	}
+
+	.half-width {
+		width: 100%;
+		float: none;
+	}
+
+	.half-width-nav {
+		width: 100%;	
+		background-color: white;
+}
+/** ABOUT **/
+	
+	h2 {
+		color: blue;
+	}
+	
+	.about-content {
+		margin: 20px;
+	}
+	.about-image {
+		float: none;
+		padding-right: 20px;
+		width: 90%;
+		height: 90%;
+	}	
 }
