@@ -135,145 +135,66 @@ h1 {
 }
 
 /***** PORTFOLIO SECTION ******/
-.portfolio {
-	height: 720px;
-	width: 650px;
-	background-color: #ffffff;
-	margin: 20px 20px 20px 80px;
-	float: left;
-	border: 1px solid #dddddd;
+
+
+.container {
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
 }
 
-.portfolio li img {
-	width: 275px;
-	height: 155px;
+.work {
+  position: relative;
+  width: 274px;
+  overflow: hidden;
+  float: left;
+  margin: 20px 0 25px;
 }
 
-.portfolio-images {
-	float: left;
-	margin: 20px;
+.work:nth-child(even) {
+  margin-right: 40px;
 }
 
-.portfolio h2 {
-	font-size: 30px;
-	padding: 30px 0px 20px 30px;
-	font-weight: bold;
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: .8;
 }
 
-.portfolio hr {
+.main-section {
+  padding: 30px;
+  margin: 0 0 40px 0;
+  width: 100%;
+  max-width: 650px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ddd;
+  left: 20px;
+}
+
+.main-section h2 {
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 0;
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 300;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.main-section hr {
 	color: #cccccc;
 	width: 90%;
 	height: 1px;
 	background-color: #cccccc;
 }
 
-.wrapper1 .baseball {
-	color: white;	
-	text-align: center;
-	position: relative;
-	top: 15px;
-	font-size: 30px;
-	font-weight: bold;
-}
 
-.wrapper1 {
-	background-color: #4aaaa5;	
-	width: 275px;
-	height: 50px;
-	position: absolute;
-	left: 100px;
-	top: 342px;
-}
-
-.wrapper2 .bread {
-	color: white;	
-	text-align: center;
-	position: relative;
-	top: 15px;
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.wrapper2 {
-	background-color: #4aaaa5;	
-	width: 275px;
-	height: 50px;
-	position: absolute;
-	left: 100px;
-	top: 542px;
-}
-
-.wrapper3 .stir-fry {
-	color: white;	
-	text-align: center;
-	position: relative;
-	top: 15px;
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.wrapper3 {
-	background-color: #4aaaa5;	
-	width: 275px;
-	height: 50px;
-	position: absolute;
-	left: 100px;
-	top: 742px;
-}
-
-.wrapper4 {
-	background-color: #4aaaa5;	
-	width: 275px;
-	height: 50px;
-	position: absolute;
-	left: 415px;
-	top: 342px;
-}
-
-.wrapper4 .city {
-	color: white;	
-	text-align: center;
-	position: relative;
-	top: 15px;
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.wrapper5 .soccer {
-	color: white;	
-	text-align: center;
-	position: relative;
-	top: 15px;
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.wrapper5 {
-	background-color: #4aaaa5;	
-	width: 275px;
-	height: 50px;
-	position: absolute;
-	left: 415px;
-	top: 542px;
-}
-
-.wrapper6 .nyc {
-	color: white;	
-	text-align: center;
-	position: relative;
-	top: 15px;
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.wrapper6 {
-	background-color: #4aaaa5;	
-	width: 275px;
-	height: 50px;
-	position: absolute;
-	left: 415px;
-	top: 742px;
-}
 /***** CONTACT SECTION ******/
 .contact {
 	width: 650px;
@@ -323,9 +244,9 @@ h1 {
 /***** ASIDE SECTION ******/
 
 .aside-content {
-	height: 200px;
 	float: left;
-	width: 270px;
+	width: 100%;
+	max-width: 270px;
 	background-color: white;
 	margin: 20px;
 	font-weight: bold;
@@ -415,36 +336,14 @@ h1 {
 		padding-right: 10px;
 	}	
 
-	.wrapper2 {
-		top: 742px;
-	}
-
-	.wrapper3 {
-		top: 1142px;
-	}
-
-	.wrapper4 {
-		left: 100px;
-		top: 542px;
-	}
-
-	.wrapper5 {
-		left: 100px;
-		top: 942px;
-	}
-
-	.wrapper6 {
-		left: 100px;
-		top: 1342px;
-	}
 }
 
 @media screen and (max-width: 768px) {
 
 /** HEADER **/
 
-.logo-name {
-	margin-left: 20px;
+	.logo-name {
+		margin-left: 20px;
 }
 
 /** ABOUT **/	 
