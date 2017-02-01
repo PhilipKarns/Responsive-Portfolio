@@ -58,8 +58,8 @@ nav li a {
 	padding-left: 15px;
 }
 
-nav lii a:first-child {
-	border-left: 0 none;
+nav li a:first-child {
+	border-left: none;
 }
 
 nav li a:link {
@@ -136,58 +136,50 @@ h1 {
 
 /***** PORTFOLIO SECTION ******/
 
-
-.container {
-  clear: both;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 960px;
+.portfolio {	
+	width: 650px;
+	background-color: #ffffff;
+	margin: 20px 20px 20px 80px;
+	float: left;
+	border: 1px solid #dddddd;
 }
 
-.work {
+.portfolio-images {
+	float: left;
+	margin: 10px 10px 10px 40px;
+	width: 40%;	
+}
+
+.portfolio-images img {
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+
+.portfolio h2 {
+	font-size: 30px;
+	padding: 30px 0px 20px 30px;
+	font-weight: bold;
+}
+
+.portfolio h3 {
   position: relative;
-  width: 274px;
-  overflow: hidden;
-  float: left;
-  margin: 20px 0 25px;
-}
-
-.work:nth-child(even) {
-  margin-right: 40px;
-}
-
-.work img {
-  width: 100%;
-  border: 0 none;
-  opacity: .8;
-}
-
-.main-section {
-  padding: 30px;
-  margin: 0 0 40px 0;
-  width: 100%;
-  max-width: 650px;
-  float: left;
-  background: #fff;
-  border: 1px solid #ddd;
-  left: 20px;
-}
-
-.main-section h2 {
-  position: absolute;
-  bottom: 20px;
+  bottom: 70px;
   margin-bottom: 0;
   padding: 15px;
-  width: 100%;
+  width: 90%;
   color: #fff;
   text-align: center;
   line-height: 30px;
   font-weight: 300;
   background: #4aaaa5;
   border-bottom: 0;
+  left: -2px;
+  right:0px;
+  font-size: 20px;
 }
 
-.main-section hr {
+.portfolio hr {
 	color: #cccccc;
 	width: 90%;
 	height: 1px;
@@ -332,10 +324,17 @@ h1 {
 
 	.portfolio {
 		width: 40%;
-		height: 65%;
+		height: auto;
 		padding-right: 10px;
-	}	
+		}	
 
+	.portfolio-images {
+		width: 70%;
+	}
+	
+	.portfolio h3 {
+		width: 88%;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -374,8 +373,8 @@ h1 {
 
 /** ASIDE **/
 	.aside-content {
-		width: 100%;
-		text-align: left;
+		width: 100;
+		text-align: left;		
 	}
 
 	.aside-content hr {
@@ -397,17 +396,22 @@ h1 {
 
 /** PORTFOLIO **/
 
-.portfolio {
-		width: 100%;
-		padding-right: 10px;
-		margin: 20px;
-	}	
+	.portfolio {
+			width: 100%;
+			padding-right: 10px;
+			margin: 20px;
+		}
 
-.portfolio-images li img {
-	width: 50%;
-	height: 50%;
-	
-	}
+	.portfolio-images {
+		width: 40%;
+		}	
+
+	.portfolio-images img {
+		width: 100%;
+		}
+
+
+
 
 }
 
@@ -443,4 +447,24 @@ h1 {
 		width: 90%;
 		height: 90%;
 	}	
+
+/** PORTFOLIO **/
+
+	.portfolio {
+		width: 90%;
+	}
+	.portfolio-images {
+		width: 80%;
+	}
+
+	.portfolio h3 {
+		width: 94%;
+	}
+
+	.aside-content {
+		width: 100%;
+	}
+
+
 }
+
